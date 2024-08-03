@@ -1,15 +1,19 @@
 {
-  "name": "gallery-main",
+  "name": "micasaart-gallery",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "three": "^0.167.1"
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "babel-loader": "^8.3.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
   }
 }
